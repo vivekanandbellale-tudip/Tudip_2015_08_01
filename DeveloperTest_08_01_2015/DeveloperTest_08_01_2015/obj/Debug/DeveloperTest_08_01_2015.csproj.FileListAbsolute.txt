@@ -1,0 +1,6 @@
+D:\DeveloperTest_08_01_2015\DeveloperTest_08_01_2015\bin\Debug\DeveloperTest_08_01_2015.exe.config
+D:\DeveloperTest_08_01_2015\DeveloperTest_08_01_2015\bin\Debug\DeveloperTest_08_01_2015.exe
+D:\DeveloperTest_08_01_2015\DeveloperTest_08_01_2015\bin\Debug\DeveloperTest_08_01_2015.pdb
+D:\DeveloperTest_08_01_2015\DeveloperTest_08_01_2015\obj\Debug\DeveloperTest_08_01_2015.csprojResolveAssemblyReference.cache
+D:\DeveloperTest_08_01_2015\DeveloperTest_08_01_2015\obj\Debug\DeveloperTest_08_01_2015.exe
+D:\DeveloperTest_08_01_2015\DeveloperTest_08_01_2015\obj\Debug\DeveloperTest_08_01_2015.pdb
