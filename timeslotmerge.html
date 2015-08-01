@@ -1,0 +1,75 @@
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+	<title>Merge overlapping time slots</title>
+		<script>
+		angular.module('app', [])
+		.controller('timeCtrl',function($scope, $filter){
+			$scope.schedule = {};
+			$scope.validschedule = {};
+
+			$scope.getSchedules = function(){
+				var shedules = [];
+				var validschedules = [];
+				
+				// shedules.push({starts: $filter('date')($scope.schedule.start1, 'HH:mm:ss').toString().split(':').join(''), end: $filter('date')($scope.schedule.end1, 'HH:mm:ss').toString().split(':').join('')});
+
+				// shedules.push({starts: $filter('date')($scope.schedule.start2, 'HH:mm:ss').toString().split(':').join(''), end: $filter('date')($scope.schedule.end2, 'HH:mm:ss').toString().split(':').join('')});
+
+				// shedules.push({starts: $filter('date')($scope.schedule.start3, 'HH:mm:ss').toString().split(':').join(''), end: $filter('date')($scope.schedule.end3, 'HH:mm:ss').toString().split(':').join('')});
+
+				// shedules.push({starts: $filter('date')($scope.schedule.start4, 'HH:mm:ss').toString().split(':').join(''), end: $filter('date')($scope.schedule.end4, 'HH:mm:ss').toString().split(':').join('')});
+
+				// shedules.push({starts: $filter('date')($scope.schedule.start5, 'HH:mm:ss').toString().split(':').join(''), end: ($filter('date')($scope.schedule.end5, 'HH:mm:ss')).toString().split(':').join('')});
+				// 	alert(shedules[1].starts);
+
+				shedules.push({starts: $scope.schedule.start1, end: $scope.schedule.end1});
+				shedules.push({starts: $scope.schedule.start2, end: $scope.schedule.end2});
+				shedules.push({starts: $scope.schedule.start3, end: $scope.schedule.end3});
+				shedules.push({starts: $scope.schedule.start4, end: $scope.schedule.end4});
+				shedules.push({starts: $scope.schedule.start5, end: $scope.schedule.end5});
+				for(i=0; i < shedules.length -1; i++) {
+					var j = i +1;
+					
+					if(shedules[i].end >= shedules[j].starts || shedules[i].end <= shedules[j].end) {
+						validschedules.push({starts:shedules[i].starts, end: shedules[j].end});
+						i++;
+					} else {
+						validschedules.push(shedules[i]);
+					}
+
+				}
+				$scope.validschedule = validschedules;
+			};
+
+		})
+		
+			function myFunction() {
+			    var x = document.getElementById("myTime").value;
+			    document.getElementById("demo").innerHTML = x;
+			}
+		</script>
+</head>
+	<body ng-app="app" ng-controller="timeCtrl" style="text-align:center">
+		<h1>Time slot example</h1>
+		<P>Please run this application on chrome browser for better experiece.</p>
+			<div >
+			<form ng-submit="getSchedules()" novalidate>
+				<table>
+					<tr><th>Start time</th><th>End time</th></tr>
+					<tr><td><input type="time" ng-model="schedule.start1"> </td><td><input type="time"ng-model="schedule.end1"> </td></tr>
+					<tr><td><input type="time" ng-model="schedule.start2"> </td><td> <input type="time" ng-model="schedule.end2"></td></tr>
+					<tr><td> <input type="time" ng-model="schedule.start3"></td><td><input type="time" ng-model="schedule.end3"> </td></tr>
+					<tr><td> <input type="time" ng-model="schedule.start4"></td><td> <input type="time" ng-model="schedule.end4"></td></tr>
+					<tr><td> <input type="time" ng-model="schedule.start5"></td><td><input type="time" ng-model="schedule.end5"> </td></tr>
+					<tr><td><button type="submit">SUBMIT</button></td></tr>
+				</table>
+				
+			</form>
+			</div>
+			<span>
+				<div>{{validschedule}}</div>
+			</span>
+
+	<body>
+</html>
