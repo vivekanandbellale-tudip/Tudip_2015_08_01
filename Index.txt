@@ -1,1 +1,29 @@
-Test For Saturday 08/01/2015
+
+
+Problem:
+
+Given an n time slots, please merge the overlapping time slots in to one time slot for the given date.
+Eg for the Date 08/01/2015 if the there are five time slot.
+Input time slots should be taken as dynamic input.
+
+1) 8:00 AM to 10:00 AM
+2) 10:20 AM to 10:40 AM
+3) 10:40 AM to 1:00 PM
+4) 3:00 PM to 4:00 PM
+5) 3:30 PM to 5:00 PM
+
+Then the result should be
+1) 8:00 AM to 10:00 AM
+2) 10:20 AM to 1:00 PM
+3) 3:00 PM to 5:00 PM
+
+No need to handle seconds
+
+Please Commit your code to following repository
+https://github.com/sagarjumble/Tudip_2015_08_01.git
+Please commit your code with a new branch and set the branch name to your firstname-lastname.
+
+Once Pushed drop an email with Commit URL:
+
+
+
