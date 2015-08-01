@@ -1,0 +1,6 @@
+C:\OverlappingTimeSlots\OverlappingTimeSlots\OverlappingTimeSlots\bin\Debug\OverlappingTimeSlots.exe.config
+C:\OverlappingTimeSlots\OverlappingTimeSlots\OverlappingTimeSlots\obj\Debug\OverlappingTimeSlots.csprojResolveAssemblyReference.cache
+C:\OverlappingTimeSlots\OverlappingTimeSlots\OverlappingTimeSlots\bin\Debug\OverlappingTimeSlots.exe
+C:\OverlappingTimeSlots\OverlappingTimeSlots\OverlappingTimeSlots\bin\Debug\OverlappingTimeSlots.pdb
+C:\OverlappingTimeSlots\OverlappingTimeSlots\OverlappingTimeSlots\obj\Debug\OverlappingTimeSlots.exe
+C:\OverlappingTimeSlots\OverlappingTimeSlots\OverlappingTimeSlots\obj\Debug\OverlappingTimeSlots.pdb
