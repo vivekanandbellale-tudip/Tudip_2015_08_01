@@ -1,0 +1,6 @@
+c:\users\sparsh\documents\visual studio 2013\Projects\developerTest2\developerTest2\bin\Debug\developerTest2.exe.config
+c:\users\sparsh\documents\visual studio 2013\Projects\developerTest2\developerTest2\bin\Debug\developerTest2.exe
+c:\users\sparsh\documents\visual studio 2013\Projects\developerTest2\developerTest2\bin\Debug\developerTest2.pdb
+c:\users\sparsh\documents\visual studio 2013\Projects\developerTest2\developerTest2\obj\Debug\developerTest2.csprojResolveAssemblyReference.cache
+c:\users\sparsh\documents\visual studio 2013\Projects\developerTest2\developerTest2\obj\Debug\developerTest2.exe
+c:\users\sparsh\documents\visual studio 2013\Projects\developerTest2\developerTest2\obj\Debug\developerTest2.pdb
