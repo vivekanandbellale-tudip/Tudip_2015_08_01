@@ -1,0 +1,6 @@
+c:\users\tudip\documents\visual studio 2013\Projects\timeslot\timeslot\bin\Debug\timeslot.exe.config
+c:\users\tudip\documents\visual studio 2013\Projects\timeslot\timeslot\bin\Debug\timeslot.exe
+c:\users\tudip\documents\visual studio 2013\Projects\timeslot\timeslot\bin\Debug\timeslot.pdb
+c:\users\tudip\documents\visual studio 2013\Projects\timeslot\timeslot\obj\Debug\timeslot.csprojResolveAssemblyReference.cache
+c:\users\tudip\documents\visual studio 2013\Projects\timeslot\timeslot\obj\Debug\timeslot.exe
+c:\users\tudip\documents\visual studio 2013\Projects\timeslot\timeslot\obj\Debug\timeslot.pdb
